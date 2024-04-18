@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'myFont';
+  src: url('./fonts/static/Inter-ExtraBold.ttf') format('tff'),
+  url('./fonts/static/Inter-Bold.ttf') format('tff'),
+  url('./fonts/static/Inter-Regular.ttf') format('tff');
+}
+body {
+  margin: 0;
+  font-family: 'myFont' -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.menu-items p:hover{
+  color: hsl(5, 85%, 63%);
+}
+.latest-news{
+  background-color: hsl(240, 100%, 5%);
+}
+.latest-news .heading{
+  color: hsl(35, 77%, 62%);
+}
+.latest-news .mainTag:hover{
+  color:  hsl(35, 77%, 62%);
+  cursor: pointer;
+}
+.latest-news .subTag{
+  color: hsl(233, 8%, 79%);
+}
+.bright-heading{
+  color: hsl(240, 100%, 5%) ;
+}
+.fourth-column{
+  color: hsl(236, 13%, 42%);
+}
+.read-more-button {
+  background-color:hsl(5, 85%, 63%) ;
+}
+.read-more-button:hover {
+  background-color:hsl(240, 100%, 5%) ;
+}
+.thirdSection .numbering{
+  color: hsl(233, 8%, 79%);
+}
+.thirdSection .heading{
+  color: hsl(240, 100%, 5%);
+}
+.thirdSection .heading:hover{
+  color: hsl(5, 85%, 63%);
+}
+.thirdSection .data{
+  color: hsl(236, 13%, 42%) ;
+}
+.Menu{
+  background-color: white;
+}
